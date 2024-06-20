@@ -91,7 +91,7 @@ echo -e "\n\n\033[36m _____  _____  _____
 ██╔══██╗██║   ██║  ╚██╔╝  ██╔══██╗██║   ██║██║   ██║
 ██████╔╝╚██████╔╝   ██║   ██████╔╝╚██████╔╝╚██████╔╝
 ╚═════╝  ╚═════╝    ╚═╝   ╚═════╝  ╚═════╝  ╚═════╝ 
-\n\033[33mBOY GALAXY GAME - HP : 0852-1722-2040\nBOY GALAXY GAME - CIKARANG BEKASI - WhatsApp : 0813-8085-7350\033[0m\n" | sudo tee /dev/tty1
+\n\033[33mBOY GALAXY GAME - HP : 0852-1722-2040\nCIKARANG BEKASI - WhatsApp : 0813-8085-7350\033[0m\n" | sudo tee /dev/tty1
 sudo systemctl stop pppoe
 sudo systemctl stop dtlink
 if [ $USBETHERNET = true ] ; then
