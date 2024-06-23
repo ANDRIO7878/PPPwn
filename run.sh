@@ -84,14 +84,11 @@ if [[ $LEDACT == "status" ]] || [[ $LEDACT == "off" ]] ;then
       LEDACT="normal"
    fi
 fi
-echo -e "\n\n\033[36m _____  _____  _____                               
-██████╗  ██████╗ ██╗   ██╗██████╗  ██████╗  ██████╗ 
-██╔══██╗██╔═══██╗╚██╗ ██╔╝██╔══██╗██╔════╝ ██╔════╝ 
-██████╔╝██║   ██║ ╚████╔╝ ██████╔╝██║  ███╗██║  ███╗
-██╔══██╗██║   ██║  ╚██╔╝  ██╔══██╗██║   ██║██║   ██║
-██████╔╝╚██████╔╝   ██║   ██████╔╝╚██████╔╝╚██████╔╝
-╚═════╝  ╚═════╝    ╚═╝   ╚═════╝  ╚═════╝  ╚═════╝ 
-\n\033[33mBOY GALAXY GAME - HP : 0852-1722-2040\nCIKARANG BEKASI - WhatsApp : 0813-8085-7350\033[0m\n" | sudo tee /dev/tty1
+echo -e "\n\n\033[36m _____  _____  _____                                ___  ___ ____  _  _    _ __ ___ ____  _  _   _ ___ 
+| o )/ \ V / _|/ \| |  / \\ V \ V / _|/ \| \_/ | __|
+| o ( o \ ( |_| o | |_| o |) ( \ ( |_| o | \_/ | _| 
+|___/\_/|_|\__|_n_|___|_n_/_n_\|_|\__|_n_|_| |_|___|
+\n\033[33mhttps://github.com/TheOfficialFloW/PPPwn\nBOY GALAXY GAME - CIKARANG BEKASI - WA : 0813-8085-7350\033[0m\n" | sudo tee /dev/tty1
 sudo systemctl stop pppoe
 sudo systemctl stop dtlink
 if [ $USBETHERNET = true ] ; then
@@ -246,7 +243,7 @@ do
 	fi
 	exit 0
  elif [[ $stdo  == *"Scanning for corrupted object...failed"* ]] ; then
- 	echo -e "\033[31m\nGagal Mencoba ulang...\033[0m\n" | sudo tee /dev/tty1
+ 	echo -e "\033[31m\nGagal mencoba ulang...\033[0m\n" | sudo tee /dev/tty1
  elif [[ $stdo  == *"Unsupported firmware version"* ]] ; then
  	echo -e "\033[31m\nUnsupported firmware version\033[0m\n" | sudo tee /dev/tty1
 	
